@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.120ef4aa.css",
-    "main.js": "/static/js/main.e3317711.js",
+    "main.css": "/static/css/main.8e1cea2f.css",
+    "main.js": "/static/js/main.356b7f4a.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
@@ -10,6 +10,7 @@
     "static/media/CV_Gabriel_Gonta.pdf": "/static/media/CV_Gabriel_Gonta.6770a64f3537aea9ebd1.pdf",
     "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
     "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/logo.png": "/static/media/logo.3410e887f870d772193e.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
@@ -17,13 +18,13 @@
     "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.120ef4aa.css.map": "/static/css/main.120ef4aa.css.map",
-    "main.e3317711.js.map": "/static/js/main.e3317711.js.map",
+    "main.8e1cea2f.css.map": "/static/css/main.8e1cea2f.css.map",
+    "main.356b7f4a.js.map": "/static/js/main.356b7f4a.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.120ef4aa.css",
-    "static/js/main.e3317711.js"
+    "static/css/main.8e1cea2f.css",
+    "static/js/main.356b7f4a.js"
   ]
 }
