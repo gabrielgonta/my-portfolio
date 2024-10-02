@@ -96,7 +96,7 @@ function Projects() {
               isBlog={false}
               title="Online Flight Ticket Booking"
               description="This project is a web-based platform allows users to easily search for flights, book tickets, and make secure payments online."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/gabrielgonta/OnlineFlightTicketBooking"
               hours="200"
               technologies={["PHP", "HTML", "CSS", "Node.js", "MySQL"]}
             />
