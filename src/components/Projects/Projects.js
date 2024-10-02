@@ -28,6 +28,12 @@ function Projects() {
               title="BurgerQuizGame"
               description="This project is an adaptation of the famous French TV game show Burger Quiz, developed with the React library."
               ghLink="https://github.com/gabrielgonta/BurgerQuizGame"
+              hours="200"
+              technologies={["React",
+                "Node.js",
+                "CSS", 
+                "HTML", 
+                "Docker"]}
             />
           </Col>
 
@@ -36,8 +42,10 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="MoneyManagerIOS"
-              description="This simple yet captivating app allows you to track your revenues and expenses with a clean and visually appealing interface."
+              description="This project is a captivating app allows you to track your revenues and expenses with a clean and visually appealing interface."
               ghLink="https://github.com/gabrielgonta/MoneyManagerIOS"
+              hours="80"
+              technologies={["Swift"]}
             />
           </Col>
 
@@ -46,30 +54,15 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="ToDoList"
-              description="This project is a task management application (todolist), developed using React for the front end and a robust back-end architecture, allowing you to efficiently manage your daily tasks."
-              ghLink="https://github.com/gabrielgonta/ToDoList"             
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="This project is a task management application, developed using React allowing you to efficiently manage your daily tasks."
+              ghLink="https://github.com/gabrielgonta/ToDoList"
+              hours="150"
+              technologies={["React",
+                "Node.js",
+                "Firebase",
+                "HTML",
+                "CSS",
+                "API"]}
             />
           </Col>
 
@@ -77,11 +70,11 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Progressive Weather App"
+              description="This project is a modern app, sleek weather forecast application built with Vue.js and designed to work seamlessly across devices."
+              ghLink="https://github.com/gabrielgonta/WeatherApp.git"
+              hours="110"
+              technologies={["Vue.js", "Node.js", "HTML", "CSS"]}
             />
           </Col>
 
@@ -89,10 +82,11 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Books Online Market Analysis"
+              description="This project is a price-tracking tool designed to help analyze the book market by scraping data from the Books to Scrape website."
+              ghLink="https://github.com/gabrielgonta/AnalystBooks"
+              hours="70"
+              technologies={["Python", "Shell"]}
             />
           </Col>
 
@@ -100,24 +94,42 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Online Flight Ticket Booking"
+              description="This project is a web-based platform allows users to easily search for flights, book tickets, and make secure payments online."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              hours="200"
+              technologies={["PHP", "HTML", "CSS", "Node.js", "MySQL"]}
             />
           </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* Autres projets */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={chatify}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="FullStack Project"
+              description="This full-stack project combines various technologies to create a complete application that includes front-end, back-end, and database. The project uses Python for backend logic, CSS and HTML for the front-end design, C for low-level operations, PHP and MySQL for handling the database, Angular for the front-end framework, API integration for communication between services, Dockerfile for containerization, and Swift for a mobile app component."
+              ghLink="https://github.com/yourgithub/fullstack-project"
+              demoLink="https://yourdemo.com"
+              hours="300"
+              technologies={[
+                "Python", 
+                "CSS", 
+                "HTML", 
+                "C", 
+                "PHP", 
+                "MySQL", 
+                "Angular", 
+                "API", 
+                "Docker", 
+                "Swift"
+              ]}
             />
           </Col>
+
+          {/* Autres projets */}
         </Row>
       </Container>
     </Container>

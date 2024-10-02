@@ -3,6 +3,9 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { FaClock } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaPython, FaCss3Alt, FaHtml5, FaPhp, FaDocker, FaSwift, FaVuejs } from "react-icons/fa";
+import { SiC, SiMysql, SiAngular, SiFirebase, SiShell} from "react-icons/si"; // Import additional icons
 
 function ProjectCards(props) {
   return (
@@ -20,8 +23,6 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -33,8 +34,68 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+
+        {/* Button to display the number of hours spent on the project */}
+        <Button
+          variant="primary"
+          href={props.demoLink}
+          target="_blank"
+          style={{ marginLeft: "10px" }}
+        >
+          <FaClock /> &nbsp; {props.hours} Hours
+        </Button>
+
+        {/* Display icons for used technologies */}
+        <div style={{ marginTop: "10px" }}>
+          {props.technologies.includes("React") && (
+            <FaReact style={{ marginRight: "10px", color: "#61DBFB" }} size={30} />
+          )}
+          {props.technologies.includes("Node.js") && (
+            <FaNodeJs style={{ marginRight: "10px", color: "#68A063" }} size={30} />
+          )}
+          {props.technologies.includes("Vue.js") && (
+            <FaVuejs style={{ marginRight: "10px", color: "#42b883" }} size={30} />
+          )}
+          {props.technologies.includes("Python") && (
+            <FaPython style={{ marginRight: "10px", color: "#306998" }} size={30} />
+          )}
+          {props.technologies.includes("HTML") && (
+            <FaHtml5 style={{ marginRight: "10px", color: "#E34C26" }} size={30} />
+          )}
+          {props.technologies.includes("CSS") && (
+            <FaCss3Alt style={{ marginRight: "10px", color: "#264de4" }} size={30} />
+          )}
+          {props.technologies.includes("C") && (
+            <SiC style={{ marginRight: "10px", color: "#A8B9CC" }} size={30} />
+          )}
+          {props.technologies.includes("Firebase") && (
+            <SiFirebase style={{ marginRight: "10px", color: "#FFCA28" }} size={30} />
+          )}
+          {props.technologies.includes("PHP") && (
+            <FaPhp style={{ marginRight: "10px", color: "#8993be" }} size={30} />
+          )}
+          {props.technologies.includes("MySQL") && (
+            <SiMysql style={{ marginRight: "10px", color: "#4479A1" }} size={30} />
+          )}
+          {props.technologies.includes("Angular") && (
+            <SiAngular style={{ marginRight: "10px", color: "#DD0031" }} size={30} />
+          )}
+          {props.technologies.includes("Shell") && (
+            <SiShell style={{ marginRight: "10px", color: "#6ae645" }} size={30} />
+          )}
+          {props.technologies.includes("API") && (
+            <CgWebsite style={{ marginRight: "10px", color: "#61DBFB" }} size={30} />
+          )}
+          {props.technologies.includes("Docker") && (
+            <FaDocker style={{ marginRight: "10px", color: "#0db7ed" }} size={30} />
+          )}
+          {props.technologies.includes("Swift") && (
+            <FaSwift style={{ marginRight: "10px", color: "#FA7343" }} size={30} />
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;

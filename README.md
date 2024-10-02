@@ -1,27 +1,37 @@
-<h2 align="center">
-  Portfolio Website - Gabriel<br/>
-</h2>
+# 💼 Gabriel's Portfolio Website
 
-## Built With
+## Description
 
-My personal portfolio <a href="https://gabrielgonta.com" target="_blank">gabrielgonta.com</a> which features some of my github projects as well as my resume and technical skills.<br/>
+Welcome to Gabriel's Portfolio Website! 🚀
 
-This project was built using these technologies.
+This website showcases some of my personal projects, technical skills, and includes my resume. The portfolio is designed to provide a clean and professional overview of my work and expertise, while being fully responsive across all devices.
+
+You can check it out here : <a href='https://gabrielgonta.com' style='color:grey;'>gabrielgonta.com</a> 🌐
+
+## Key Features
+
+      ✔️ Modern Design: Styled with React-Bootstrap and CSS, offering easy customization and color changes.
+      ✔️ Fully Responsive: The layout adapts to different screen sizes, ensuring a smooth experience on both mobile and desktop.
+      ✔️ Project Showcase: Highlights selected GitHub projects to demonstrate my work.
+      ✔️ Technical Skills: Displays my expertise in various programming languages and frameworks.
+
+
+## Technologies Used
+
+This portfolio was built using:
 
 - React.js
 - Node.js
 - Angular
-- Python
-- C
-- Swift
+- HTML
+- CSS
 
-## Features
+## How I Try to Stand Out
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+🎨 Customizable Styling: Easily adjustable color scheme and layout.
 
-**📱 Fully Responsive**
+📱 Mobile-First Approach: Optimized for a seamless experience on all devices.
 
-### Show your support
+## Authors
 
-Give a ⭐ if you like this website!
-
+* **Gabriel Gonta** - *Initial work* - [ToDoList](https://github.com/gabrielgonta/my-portfolio )

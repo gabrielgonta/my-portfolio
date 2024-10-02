@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently student in cybersecurity at CyberUniversity.
             <br />
-            I am also CEO of <a href="https://skaneat.com">SkanEat</a>. The web application for restaurant, bars, bistros etc...
+            I am also CEO of <a className="purple" target="_blank" rel="noreferrer" href="https://skaneat.com">SkanEat</a>. The web application for restaurant, bars, bistros...
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
