@@ -6,7 +6,7 @@ Welcome to Gabriel's Portfolio Website! 🚀
 
 This website showcases some of my personal projects, technical skills, and includes my resume. The portfolio is designed to provide a clean and professional overview of my work and expertise, while being fully responsive across all devices.
 
-You can check it out here : <a href='https://gabrielgonta.com' style='color:grey;'>gabrielgonta.com</a> 🌐
+You can check it out here : <a href='https://gabrielgonta.com'>gabrielgonta.com</a> 🌐
 
 ## Key Features
 
@@ -34,4 +34,4 @@ This portfolio was built using:
 
 ## Authors
 
-* **Gabriel Gonta** - *Initial work* - [ToDoList](https://github.com/gabrielgonta/my-portfolio )
+* **Gabriel Gonta** - *Initial work* - [Portfolio](https://github.com/gabrielgonta/my-portfolio )
