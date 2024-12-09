@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaClock } from "react-icons/fa";
 import { FaReact, FaNodeJs, FaPython, FaCss3Alt, FaHtml5, FaPhp, FaDocker, FaSwift, FaVuejs } from "react-icons/fa";
-import { SiC, SiMysql, SiAngular, SiFirebase, SiShell} from "react-icons/si"; // Import additional icons
+import { SiC, SiMysql, SiAngular, SiFirebase, SiShell, SiKalilinux } from "react-icons/si"; // Import additional icons
 
 function ProjectCards(props) {
   return (
@@ -91,6 +91,9 @@ function ProjectCards(props) {
           )}
           {props.technologies.includes("Swift") && (
             <FaSwift style={{ marginRight: "10px", color: "#FA7343" }} size={30} />
+          )}
+          {props.technologies.includes("Kali") && (
+            <SiKalilinux style={{ marginRight: "10px", color: "#0D8CBC" }} size={30} />
           )}
         </div>
       </Card.Body>

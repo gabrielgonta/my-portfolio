@@ -7,6 +7,9 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
+import password from "../../Assets/Projects/password.png";
+import emailspoofing from "../../Assets/Projects/emailspoofing.png";
+import keylogger from "../../Assets/Projects/keylogger.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -101,35 +104,42 @@ function Projects() {
               technologies={["PHP", "HTML", "CSS", "Node.js", "MySQL"]}
             />
           </Col>
-        </Row>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* Autres projets */}
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={password}
               isBlog={false}
-              title="FullStack Project"
-              description="This full-stack project combines various technologies to create a complete application that includes front-end, back-end, and database. The project uses Python for backend logic, CSS and HTML for the front-end design, C for low-level operations, PHP and MySQL for handling the database, Angular for the front-end framework, API integration for communication between services, Dockerfile for containerization, and Swift for a mobile app component."
-              ghLink="https://github.com/yourgithub/fullstack-project"
-              demoLink="https://yourdemo.com"
-              hours="300"
-              technologies={[
-                "Python", 
-                "CSS", 
-                "HTML", 
-                "C", 
-                "PHP", 
-                "MySQL", 
-                "Angular", 
-                "API", 
-                "Docker", 
-                "Swift"
-              ]}
+              title="Password Generator"
+              description="This project is a simple yet powerful tool designed to create secure passwords effortlessly."
+              ghLink="https://github.com/gabrielgonta/Password-Generator.git"
+              hours="230"
+              technologies={["HTML", "CSS", "Node.js", "Kali"]}
             />
           </Col>
 
-          {/* Autres projets */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={keylogger}
+              isBlog={false}
+              title="Keylogger"
+              description="This project is Inputs To Mail is a security testing tool designed to capture keyboard, mouse, screenshot, and microphone inputs, then send this data securely to your email."
+              ghLink="https://github.com/gabrielgonta/Keylogger.git"
+              hours="120"
+              technologies={["Kali", "Python"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emailspoofing}
+              isBlog={false}
+              title="Email Spoofing Toolkit"
+              description="This application is a React-based project designed for educational purposes, enabling users to explore concepts of email spoofing."
+              ghLink="https://github.com/gabrielgonta/Email-Spoofing.git"
+              hours="170"
+              technologies={["Kali", "Python"]}
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
