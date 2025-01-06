@@ -110,10 +110,10 @@ function Projects() {
               imgPath={password}
               isBlog={false}
               title="Password Generator"
-              description="This project is a simple yet powerful tool designed to create secure passwords effortlessly."
-              ghLink="https://github.com/gabrielgonta/Password-Generator.git"
-              hours="230"
-              technologies={["HTML", "CSS", "Node.js", "Kali"]}
+              description="This project contains four essential tools for cybersecurity enthusiasts and professionals:"
+              ghLink="https://github.com/gabrielgonta/Cybersecurity-Tools.git"
+              hours="250"
+              technologies={["Python", "Kali"]}
             />
           </Col>
 
