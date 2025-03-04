@@ -6,11 +6,17 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import flight from "../../Assets/Projects/flight.png";
 import password from "../../Assets/Projects/password.png";
 import emailspoofing from "../../Assets/Projects/emailspoofing.png";
 import keylogger from "../../Assets/Projects/keylogger.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import gabiBook from "../../Assets/Projects/gabibook.png";
+import gaBank from "../../Assets/Projects/gabank.png";
+import myHotelBooker from "../../Assets/Projects/myhotelbooker.png";
+import myRPG from "../../Assets/Projects/myrpg.png";
+import myRadar from "../../Assets/Projects/myradar.png";
+import hashinCPP from "../../Assets/Projects/hashingcpp.png";
 
 function Projects() {
   return (
@@ -24,6 +30,89 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gabiBook}
+              isBlog={false}
+              title="GabiBook"
+              description="This project is a sleek and modern Flight Booking UI template built with React and Tailwind CSS"
+              ghLink="https://github.com/gabrielgonta/Gabibook"
+              hours="240"
+              technologies={["React",
+                "Node.js",
+                "Tailwindcss", 
+                "HTML"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gaBank}
+              isBlog={false}
+              title="GaBank"
+              description="This project is a modern and intuitive banking application UI template built with React and Tailwind CSS"
+              ghLink="https://github.com/gabrielgonta/GaBank"
+              hours="110"
+              technologies={["React",
+                "Node.js",
+                "Tailwindcss", 
+                "HTML"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myHotelBooker}
+              isBlog={false}
+              title="MyHotelBooker"
+              description="This project is a production-ready hotel booking platform built with modern web technologies and for backend API integration."
+              ghLink="https://github.com/gabrielgonta/MyHotelBooker"
+              hours="290"
+              technologies={["React",
+                "Node.js",
+                "Tailwindcss",
+                "HTML",
+                "Cypress",
+                "API"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myRPG}
+              isBlog={false}
+              title="My-RPG"
+              description="This project is a fully customized role-playing game designed from the ground up, using only a limited set of allowed functions."
+              ghLink="https://github.com/gabrielgonta/my-rpg"
+              hours="330"
+              technologies={["C"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={myRadar}
+              isBlog={false}
+              title="My-Radar"
+              description="This project is an air traffic simulation where planes travel between control towers, avoiding collisions."
+              ghLink="https://github.com/gabrielgonta/my-radar"
+              hours="180"
+              technologies={["C"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hashinCPP}
+              isBlog={false}
+              title="Hashing-CPP"
+              description="This library provides efficient, fast, and portable hashing algorithms, including CRC32, MD5, SHA1, SHA256 (SHA2), and Keccak."
+              ghLink="https://github.com/gabrielgonta/Hashing-CPP"
+              hours="110"
+              technologies={["Cplusplus"]}
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -95,7 +184,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={flight}
               isBlog={false}
               title="Online Flight Ticket Booking"
               description="This project is a web-based platform allows users to easily search for flights, book tickets, and make secure payments online."
@@ -109,7 +198,7 @@ function Projects() {
             <ProjectCard
               imgPath={password}
               isBlog={false}
-              title="Password Generator"
+              title="Cybersecurity Tools"
               description="This project contains four essential tools for cybersecurity enthusiasts and professionals:"
               ghLink="https://github.com/gabrielgonta/Cybersecurity-Tools.git"
               hours="250"

@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiNodejs, DiPython, DiGit, DiPhp, DiJqueryLogo, DiAngularSimple, DiSwift, DiDocker, DiTerminal, DiDatabase } from "react-icons/di";
+import { DiHtml5, DiCss3, DiJavascript1, DiAws, DiReact, DiNodejs, DiPython, DiGit, DiPhp, DiJqueryLogo, DiAngularSimple, DiSwift, DiDocker, DiTerminal, DiDatabase } from "react-icons/di";
 import { TbBrandGolang } from "react-icons/tb";
-import { SiC, SiPostgresql, SiMysql } from "react-icons/si";
+import { SiC, SiCplusplus, SiTailwindcss, SiPowershell, SiCypress, SiKalilinux, SiVuedotjs, SiWireshark, SiFigma, SiPostgresql, SiMysql } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -14,16 +14,13 @@ function Techstack() {
         <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiC />
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiCypress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -32,19 +29,40 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandGolang />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJqueryLogo />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAngularSimple />
+        <DiDatabase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiSwift />
@@ -53,13 +71,22 @@ function Techstack() {
         <DiTerminal />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDatabase />
+        <SiFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKalilinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWireshark />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowershell />
       </Col>
     </Row>
   );

@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaClock } from "react-icons/fa";
 import { FaReact, FaNodeJs, FaPython, FaCss3Alt, FaHtml5, FaPhp, FaDocker, FaSwift, FaVuejs } from "react-icons/fa";
-import { SiC, SiMysql, SiAngular, SiFirebase, SiShell, SiKalilinux } from "react-icons/si"; // Import additional icons
+import { SiC, SiMysql, SiCplusplus, SiAngular, SiFirebase, SiShell, SiTailwindcss, SiCypress, SiKalilinux } from "react-icons/si"; // Import additional icons
 
 function ProjectCards(props) {
   return (
@@ -56,6 +56,9 @@ function ProjectCards(props) {
           {props.technologies.includes("Vue.js") && (
             <FaVuejs style={{ marginRight: "10px", color: "#42b883" }} size={30} />
           )}
+          {props.technologies.includes("Cypress") && (
+            <SiCypress style={{ marginRight: "10px", color: "#42b883" }} size={30} />
+          )}
           {props.technologies.includes("Python") && (
             <FaPython style={{ marginRight: "10px", color: "#306998" }} size={30} />
           )}
@@ -65,8 +68,14 @@ function ProjectCards(props) {
           {props.technologies.includes("CSS") && (
             <FaCss3Alt style={{ marginRight: "10px", color: "#264de4" }} size={30} />
           )}
+          {props.technologies.includes("Tailwindcss") && (
+            <SiTailwindcss style={{ marginRight: "10px", color: "#264de2" }} size={30} />
+          )}
           {props.technologies.includes("C") && (
             <SiC style={{ marginRight: "10px", color: "#A8B9CC" }} size={30} />
+          )}
+          {props.technologies.includes("Cplusplus") && (
+            <SiCplusplus style={{ marginRight: "10px", color: "#A9B9CC" }} size={30} />
           )}
           {props.technologies.includes("Firebase") && (
             <SiFirebase style={{ marginRight: "10px", color: "#FFCA28" }} size={30} />
