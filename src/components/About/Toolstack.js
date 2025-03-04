@@ -6,7 +6,17 @@ import {
   SiLinux,
   SiMacos,
   SiPhpmyadmin,
+  SiPostgresql,
+  SiKalilinux, 
+  SiWireshark, 
+  SiFigma,
 } from "react-icons/si";
+import { 
+  DiGit, 
+  DiDocker,
+  DiAws,
+  DiDatabase,
+} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -25,6 +35,30 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhpmyadmin />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+         <SiKalilinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiWireshark />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
       </Col>
     </Row>
   );

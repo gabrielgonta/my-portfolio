@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiHtml5, DiCss3, DiJavascript1, DiAws, DiReact, DiNodejs, DiPython, DiGit, DiPhp, DiJqueryLogo, DiAngularSimple, DiSwift, DiDocker, DiTerminal, DiDatabase } from "react-icons/di";
+import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiNodejs, DiPython, DiPhp, DiJqueryLogo, DiAngularSimple, DiSwift, DiTerminal } from "react-icons/di";
 import { TbBrandGolang } from "react-icons/tb";
-import { SiC, SiCplusplus, SiTailwindcss, SiPowershell, SiCypress, SiKalilinux, SiVuedotjs, SiWireshark, SiFigma, SiPostgresql, SiMysql } from "react-icons/si";
+import { SiC, SiCplusplus, SiTailwindcss, SiPowershell, SiCypress, SiVuedotjs, SiMysql } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -18,9 +18,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiCypress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -47,16 +44,7 @@ function Techstack() {
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJqueryLogo />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDatabase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiC />
@@ -71,19 +59,7 @@ function Techstack() {
         <DiTerminal />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKalilinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWireshark />
+        <SiCypress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPowershell />
