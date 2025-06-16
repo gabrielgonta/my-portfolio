@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4566a32c.css",
-    "main.js": "/static/js/main.c5e2be97.js",
+    "main.js": "/static/js/main.e3a2848d.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/myrpg.png": "/static/media/myrpg.f1b52b7fbb9406f3427c.png",
@@ -16,11 +16,11 @@
     "static/media/hashingcpp.png": "/static/media/hashingcpp.05a3d819ca78961f6934.png",
     "static/media/chatify.png": "/static/media/chatify.b5fe61e485412cbf859e.png",
     "static/media/emailspoofing.png": "/static/media/emailspoofing.73c90c7318b3c5610df8.png",
-    "static/media/logo.png": "/static/media/logo.3410e887f870d772193e.png",
-    "static/media/CV_GabrielGonta.pdf": "/static/media/CV_GabrielGonta.c7fac52be07d52897aa5.pdf",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/CV_Freelance_Gabriel_Gonta.pdf.pdf": "/static/media/CV_Freelance_Gabriel_Gonta.pdf.cece018a4df36b5573ca.pdf",
     "static/media/blog.png": "/static/media/blog.3283e2bc62b2c205d091.png",
+    "static/media/logo.png": "/static/media/logo.719e3e72cf51e2b95965.png",
     "static/media/codeEditor.png": "/static/media/codeEditor.7119ff93b30e806f5b5d.png",
     "static/media/flight.png": "/static/media/flight.2e8a18401e1fb1647152.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
@@ -28,12 +28,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.4566a32c.css.map": "/static/css/main.4566a32c.css.map",
-    "main.c5e2be97.js.map": "/static/js/main.c5e2be97.js.map",
+    "main.e3a2848d.js.map": "/static/js/main.e3a2848d.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4566a32c.css",
-    "static/js/main.c5e2be97.js"
+    "static/js/main.e3a2848d.js"
   ]
 }
