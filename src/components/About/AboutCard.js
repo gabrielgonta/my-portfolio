@@ -8,35 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Gabriel Gonta </span>
-            from <span className="purple"> Nice, France.</span>
-            <br />
-            I am currently student in cybersecurity at CyberUniversity.
-            <br />
-            I am also CEO of <a className="purple" target="_blank" rel="noreferrer" href="https://skaneat.com">SkanEat</a>. The web application for restaurant, bars, bistros...
+            Hello, I'm <span className="purple">Gabriel Gonta</span> from <span className="purple">Nice, France</span>.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I'm currently pursuing a degree in <b>Cybersecurity</b> at <b>CyberUniversity</b>, where I deepen my skills in system security, network protection, and ethical hacking.
+            <br />
+            <br />
+            I'm also the founder and CEO of <a className="purple" target="_blank" rel="noreferrer" href="https://skaneat.com">SkanEat</a>, a web application designed to modernize the customer experience in restaurants, bars, and cafés.
+            <br />
+            <br />
+            Outside of development, I have a deep passion for creative and immersive activities that keep me inspired:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Musics (Guitar, Drums)
+              <ImPointRight /> Playing music – guitar & drums
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Gaming and game design exploration
             </li>
             <li className="about-activity">
-              <ImPointRight /> Listen to Musics
+              <ImPointRight /> Listening to music and discovering new artists
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling and exploring new cultures
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "After the storm always comes the sun"{" "}
-          </p>
-          <footer className="blockquote-footer">Gabriel</footer>
         </blockquote>
       </Card.Body>
     </Card>

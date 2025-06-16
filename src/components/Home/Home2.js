@@ -19,35 +19,59 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and cybersecurity and now I try to
-              practice as much as possible !
+              I'm a passionate <b className="purple">Fullstack Developer</b> with a strong interest in
+              <b className="purple"> web technologies</b> and <b className="purple">
+                <a className="purple" href="https://fr.wikipedia.org/wiki/Cybersécurité" target="_blank" rel="noreferrer">
+                  cybersecurity
+                </a>
+              </b>.
+              I love building modern, secure, and user-friendly applications that solve real-world problems.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I’m fluent in technologies such as&nbsp;
               <i>
-                <b className="purple"> <a className="purple" href="https://fr.wikipedia.org/wiki/C_(langage)" target="_blank" rel="noreferrer">C</a>, <a className="purple" href="https://fr.wikipedia.org/wiki/Python_(langage)" target="_blank" rel="noreferrer">Python</a> and <a className="purple" href="https://fr.wikipedia.org/wiki/Programmation_web" target="_blank" rel="noreferrer">web language</a>. </b>
+                <b className="purple">
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/Programmation_web" target="_blank" rel="noreferrer">HTML/CSS</a>, 
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/JavaScript" target="_blank" rel="noreferrer"> JavaScript</a>, 
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/React" target="_blank" rel="noreferrer"> React</a>, 
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/Node.js" target="_blank" rel="noreferrer"> Node.js</a>, 
+                  and <a className="purple" href="https://fr.wikipedia.org/wiki/SQL" target="_blank" rel="noreferrer">SQL</a>.
+                </b>
               </i>
               <br />
-              <br />But I can code always in 
+              <br />
+              I also enjoy coding in systems and scripting languages like&nbsp;
               <i>
-                <b className="purple"> <a className="purple" href="https://fr.wikipedia.org/wiki/Langage_de_requête" target="_blank" rel="noreferrer">Dataquery language</a>, <a className="purple" href="https://fr.wikipedia.org/wiki/Swift_(langage_d%27Apple)" target="_blank" rel="noreferrer">Swift</a> and <a className="purple" href="https://fr.wikipedia.org/wiki/Go_(langage)" target="_blank" rel="noreferrer">Go</a>. </b>
+                <b className="purple">
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/C_(langage)" target="_blank" rel="noreferrer">C</a>, 
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/Python_(langage)" target="_blank" rel="noreferrer"> Python</a>, 
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/Go_(langage)" target="_blank" rel="noreferrer"> Go</a>, 
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/Swift_(langage_d%27Apple)" target="_blank" rel="noreferrer"> Swift</a>, 
+                  and <a className="purple" href="https://fr.wikipedia.org/wiki/Langage_de_requête" target="_blank" rel="noreferrer">Dataquery</a>.
+                </b>
               </i>
               <br />
               <br />
-              My field of interest's are learn new&nbsp;
+              My main focus is on constantly learning new tools and languages, while improving my
               <i>
-                <b className="purple">programming languages </b> and
-                  also improve my{" "}
                 <b className="purple">
                   <a className="purple" href="https://fr.wikipedia.org/wiki/Cybersécurité" target="_blank" rel="noreferrer"> cybersecurity</a>
                 </b>
-                &nbsp;skills
               </i>
+              &nbsp;skills and staying up to date with tech industry standards.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing new web applicatons
-              with <i><b className="purple"><a className="purple" href="https://fr.wikipedia.org/wiki/Node.js" target="_blank" rel="noreferrer">Node.js</a></b></i> and like
+              Whenever possible, I dedicate my time to building new projects and MVPs using
               <i>
-                <b className="purple"> <a className="purple" href="https://fr.wikipedia.org/wiki/React" target="_blank" rel="noreferrer">React.js</a> and <a className="purple" href="https://fr.wikipedia.org/wiki/Angular" target="_blank" rel="noreferrer">Angular</a> </b>
+                <b className="purple"> modern web frameworks </b>
+              </i>
+              like&nbsp;
+              <i>
+                <b className="purple">
+                  <a className="purple" href="https://fr.wikipedia.org/wiki/React" target="_blank" rel="noreferrer">React.js</a>, 
+                  <a className="purple" href="https://en.wikipedia.org/wiki/Vue.js" target="_blank" rel="noreferrer"> Vue.js</a>, 
+                  and <a className="purple" href="https://fr.wikipedia.org/wiki/Angular" target="_blank" rel="noreferrer">Angular</a>.
+                </b>
               </i>
             </p>
           </Col>
