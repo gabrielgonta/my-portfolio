@@ -4,9 +4,9 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { TbMail } from "react-icons/tb";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -100,16 +100,6 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/gabriel-gonta-"
                   target="_blank"
                   rel="noreferrer"
@@ -126,6 +116,15 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="/contact"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <TbMail />
                 </a>
               </li>
             </ul>
