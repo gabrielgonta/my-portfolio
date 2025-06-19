@@ -120,7 +120,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="/contact"
+                  href="https://gabrielgonta.com/contact"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >

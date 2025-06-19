@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="/contact"
+                href="https://gabrielgonta.com/contact"
                 style={{ color: "white" }}
                 rel="noopener noreferrer"
               >
