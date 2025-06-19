@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiHtml5, DiCss3, DiJavascript1, DiReact, DiNodejs, DiPython, DiPhp, DiJqueryLogo, DiAngularSimple, DiSwift, DiTerminal } from "react-icons/di";
 import { TbBrandGolang } from "react-icons/tb";
-import { SiC, SiCplusplus, SiTailwindcss, SiPowershell, SiCypress, SiVuedotjs, SiMysql, SiBootstrap, SiTypescript } from "react-icons/si";
+import { SiC, SiVite, SiCplusplus, SiTailwindcss, SiPowershell, SiCypress, SiVuedotjs, SiMysql, SiBootstrap, SiTypescript, SiSocketdotio } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -27,6 +27,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVuedotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVite />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAngularSimple />
@@ -69,6 +72,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSocketdotio />
       </Col>
     </Row>
   );

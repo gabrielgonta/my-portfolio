@@ -2,10 +2,11 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
+import { TbApi } from "react-icons/tb";
 import { BsGithub } from "react-icons/bs";
 import { FaClock } from "react-icons/fa";
 import { FaReact, FaNodeJs, FaPython, FaCss3Alt, FaHtml5, FaPhp, FaDocker, FaSwift, FaVuejs } from "react-icons/fa";
-import { SiC, SiMysql, SiCplusplus, SiAngular, SiFirebase, SiShell, SiTailwindcss, SiCypress, SiKalilinux } from "react-icons/si"; // Import additional icons
+import { SiC, SiMysql, SiCplusplus, SiVite, SiAngular, SiFirebase, SiShell, SiTailwindcss, SiCypress, SiKalilinux, SiTypescript, SiSocketdotio } from "react-icons/si"; // Import additional icons
 
 function ProjectCards(props) {
   return (
@@ -86,6 +87,9 @@ function ProjectCards(props) {
           {props.technologies.includes("MySQL") && (
             <SiMysql style={{ marginRight: "10px", color: "#4479A1" }} size={30} />
           )}
+          {props.technologies.includes("Vite") && (
+            <SiVite style={{ marginRight: "10px", color: "#ac4ae0" }} size={30} />
+          )}
           {props.technologies.includes("Angular") && (
             <SiAngular style={{ marginRight: "10px", color: "#DD0031" }} size={30} />
           )}
@@ -93,7 +97,7 @@ function ProjectCards(props) {
             <SiShell style={{ marginRight: "10px", color: "#6ae645" }} size={30} />
           )}
           {props.technologies.includes("API") && (
-            <CgWebsite style={{ marginRight: "10px", color: "#61DBFB" }} size={30} />
+            <TbApi style={{ marginRight: "10px", color: "#61DBFB" }} size={30} />
           )}
           {props.technologies.includes("Docker") && (
             <FaDocker style={{ marginRight: "10px", color: "#0db7ed" }} size={30} />
@@ -103,6 +107,12 @@ function ProjectCards(props) {
           )}
           {props.technologies.includes("Kali") && (
             <SiKalilinux style={{ marginRight: "10px", color: "#0D8CBC" }} size={30} />
+          )}
+          {props.technologies.includes("Typescript") && (
+            <SiTypescript style={{ marginRight: "10px", color: "#1bace3" }} size={30} />
+          )}
+          {props.technologies.includes("Socket") && (
+            <SiSocketdotio style={{ marginRight: "10px", color: "#FFFFFF" }} size={30} />
           )}
         </div>
       </Card.Body>

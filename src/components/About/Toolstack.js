@@ -16,6 +16,7 @@ import {
   DiDocker,
   DiAws,
   DiDatabase,
+  DiRasberryPi
 } from "react-icons/di";
 
 function Toolstack() {
@@ -59,6 +60,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiRasberryPi />
       </Col>
     </Row>
   );
