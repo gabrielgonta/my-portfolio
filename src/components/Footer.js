@@ -1,16 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import Nav from "react-bootstrap/Nav";
 import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { TbMail } from "react-icons/tb";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  const [updateExpanded] = useState(false);
   let date = new Date();
   let year = date.getFullYear();
   return (
@@ -54,22 +50,6 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
-            <Nav.Link
-              as={Link}
-              to="/contact"
-              onClick={() => updateExpanded(false)}
-              className="social-icons"
-              style={{ marginLeft: "-15px" }}
-            >
-              <li className="social-icons">
-                <a
-                  rel="noopener noreferrer"
-                  style={{ color: "white" }}
-                >
-                  <TbMail />
-                </a>
-              </li>
-            </Nav.Link>
           </ul>
         </Col>
       </Row>
