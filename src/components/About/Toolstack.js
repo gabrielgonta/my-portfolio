@@ -10,6 +10,7 @@ import {
   SiKalilinux, 
   SiWireshark, 
   SiFigma,
+  SiMamp,
 } from "react-icons/si";
 import { 
   DiGit, 
@@ -32,10 +33,16 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiRasberryPi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhpmyadmin />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMamp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
@@ -60,9 +67,6 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiAws />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiRasberryPi />
       </Col>
     </Row>
   );

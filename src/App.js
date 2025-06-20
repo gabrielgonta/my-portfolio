@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import Contact from "./components/Contact/Contact";
+import Redirect from "./utile/redirect";
 
 import {
   BrowserRouter as Router,
@@ -46,6 +47,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
+      <Redirect />
     </Router>
   );
 }

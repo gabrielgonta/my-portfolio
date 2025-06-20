@@ -19,7 +19,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I'm a passionate <b className="purple">Fullstack Developer</b> with a strong interest in
-              <b className="purple"> web technologies</b> and <b className="purple">
+              <b className="purple"> mobile & web technologies</b> and <b className="purple">
                 <a className="purple" href="https://fr.wikipedia.org/wiki/Cybersécurité" target="_blank" rel="noreferrer">
                   cybersecurity
                 </a>
